@@ -4,7 +4,7 @@
 
 Code for a review rule that controls two risks at once. A case is sent to human review unless it is safe to approve. The rule bounds the share of adverse cases that pass unreviewed (coverage) and the expected loss they cause (severity), and sends as few cases to review as possible.
 
-The accompanying paper is available on request.
+The paper is in [`paper/severity_aware_conformal_prediction.pdf`](paper/severity_aware_conformal_prediction.pdf), with a one-page summary in [`paper/summary.pdf`](paper/summary.pdf).
 
 ## Main results
 
@@ -31,6 +31,7 @@ src/
   prepare_lendingclub.py   filter the raw LendingClub file (Appendix D)
   train_models.py          fit p_hat and c_hat with LightGBM (Appendix D)
   lc_data.py, splits.py    constants and sample splits
+paper/                     the paper and its one-page summary (PDF)
 results/
   simulation/              figures and saved data of the simulation study
   lendingclub/             figures and summary tables of Section 6
