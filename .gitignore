@@ -1,0 +1,38 @@
+# Data: LendingClub files are not redistributed (see data/README.md)
+data/
+*.parquet
+*.csv.gz
+
+# Personal and archived material
+study/
+_old/
+
+# Large or unused outputs
+results/lendingclub/lc_runs.csv
+results/simulation/fig_theorem2_3panel.png
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
